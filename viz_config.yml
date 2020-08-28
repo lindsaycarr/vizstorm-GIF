@@ -10,7 +10,7 @@ frame_step: 3 # hours elapsed between GIF frames
 
 # view, dimensions
 bbox: [-99, 27, -84, 36.5]
-projection: "+proj=lcc +lat_1=34.83333333333334 +lat_2=32.5 +lat_0=31.83333333333333 +lon_0=-81 +x_0=609600 +y_0=0 +ellps=GRS80 +units=m +no_defs "
+projection: "+proj=lcc +lat_1=30.7 +lat_2=29.3 +lat_0=28.5 +lon_0=-91.33333333333333 +x_0=999999.9999898402 +y_0=0 +ellps=GRS80 +datum=NAD83 +to_meter=0.3048006096012192 +no_defs"
 height: 675
 width: 1200
 
@@ -93,8 +93,8 @@ component_placement:
 
 ocean_name_placement:
   -
-    x1: 0.5
-    y1: 0.35
+    x1: 0.70
+    y1: 0.10
     label: 'Gulf of Mexico'
 
 focus_geoms:
@@ -149,13 +149,11 @@ cities:
       name: "Austin TX"
       text_angle: -180
     -
-      name: "Corpus Christi TX"
-      dot_cex: 0.8
-      text_cex: 0.8
-      text_angle: -45
+      name: "New Orleans LA"
 
   exclude:
     - "Oklahoma City OK"
+    - "Jacksonville FL"
 
 # Only streamorders greater than this will be fetched.
 fetch_streamorder: 5

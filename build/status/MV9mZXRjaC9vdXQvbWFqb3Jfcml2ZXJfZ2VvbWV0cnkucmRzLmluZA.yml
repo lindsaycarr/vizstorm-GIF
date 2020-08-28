@@ -1,0 +1,13 @@
+version: 0.3.0
+name: 1_fetch/out/major_river_geometry.rds.ind
+type: file
+hash: 3bf5303dbe63c4433a41b7a3a262b53d
+time: 2020-08-28 21:22:07 UTC
+depends:
+  view_polygon: df22e78b75c3f5c2b5f97e1e4bf869b6
+  fetch_streamorder: f93bd521a0a2a7acf3d5c2868e035dfe
+fixed: 8d8eacc018fe1dcf2a1caac0249cebc5
+code:
+  functions:
+    fetch_major_river_geoms: 9fe55369755b64ef3b0a4caf9dc8de9e
+

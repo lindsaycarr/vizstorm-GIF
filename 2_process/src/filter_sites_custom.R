@@ -9,7 +9,14 @@ filter_sites_custom <- function(ind_file, sites_ind) {
 
   ### filter sites_df here ###
   set.seed(303)
+
+  # Get sites in LA
+  sites_la <- dataRetrieval::readNWISsite(sites_df$site_no) %>%
+    filter(state_cd == stateCdLookup("LA", "id")) %>%
+    pull(site_no)
+
   sites_info_subset <- sites_df %>%
+    filter(site_no %in% sites_la) %>%
     sample_n(6)
 
   # write the data file and the indicator file

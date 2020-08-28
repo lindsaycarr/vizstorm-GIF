@@ -1,0 +1,12 @@
+version: 0.3.0
+name: 1_fetch/out/rapid_dep_sites.rds.ind
+type: file
+hash: 33430bc7cd844aa261ab6f2b3f7ab82a
+time: 2020-08-28 21:47:30 UTC
+depends:
+  stn_event: 259b0808d607d9074ca1f76a35a365e5
+fixed: 941db97b668c57b0d3a4f80db80ef42e
+code:
+  functions:
+    fetch_rapid_dep_sites: 62bae3e0293918b0ae65a941b29d452e
+
