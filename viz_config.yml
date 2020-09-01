@@ -84,11 +84,11 @@ component_placement:
     ytimeline_text: 0.205 # y location of timeline dates (0.035 below line has worked well)
   outro:
     # outro text & legend roughly, but not exactly, fit where the sparklines were
-    xleft: 0.55
+    xleft: 0.50
     xright: 0.99
-    ytop_ltn: 0.6 # top y coordinate of the text and legend for the long-term network
-    ytop_stn: 0.85 # top y coordinate of the text and legend for the short-term network
-    ytop_more: 0.4 # top y coordinate of the text and URL for where to learn more
+    ytop_ltn: 0.95 # top y coordinate of the text and legend for the long-term network
+    ytop_stn: 0.65 # top y coordinate of the text and legend for the short-term network
+    ytop_more: 0.6 # top y coordinate of the text and URL for where to learn more
 
 
 ocean_name_placement:
