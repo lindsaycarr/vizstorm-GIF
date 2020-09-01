@@ -177,7 +177,6 @@ process_precip_rasters <- function(ind_file, precip_spatial_ind,
       p_poly <- left_join(precip_spatial, filter(precip, fil), by = "id")
       return(list(fasterize(p_poly, raster_template, field = "precip", fun = r_fun)))},
       silent = TRUE)
-    return(t_step)
   }
 
   cl <- parallel::makeCluster(rep("localhost", 4), type = "SOCK")
